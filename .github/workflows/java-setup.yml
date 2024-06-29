@@ -18,6 +18,6 @@ jobs:
         distribution: 'zulu'
         java-version: '21'
     - name: Compile Java File
-      run: javac HelloWorldApp.java
+      run: javac Main.java
     - name: Run Java File
-      run: java HelloWorldApp
+      run: java Main
